@@ -3,7 +3,7 @@ package org.example;
 public class Cosmetico extends Loja {
     private double taxaComercializacao;
 
-    public Cosmetico(String nome, int quantidadeFuncionarios, double salarioBaseFuncionario, Endereco endereco, Data dataFundacao,int tamanhoMaximoEstoque) {
+    public Cosmetico(String nome, int quantidadeFuncionarios, double salarioBaseFuncionario, Endereco endereco, Data dataFundacao,int tamanhoMaximoEstoque, int taxaComercializacao) {
         super(nome, quantidadeFuncionarios, endereco, dataFundacao, tamanhoMaximoEstoque);
         this.salarioBaseFuncionario = salarioBaseFuncionario;
         this.taxaComercializacao = taxaComercializacao;

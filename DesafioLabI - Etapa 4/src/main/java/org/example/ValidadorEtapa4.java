@@ -210,7 +210,7 @@ public class ValidadorEtapa4 {
 
         //// Verificação da classe Cosmetico
         //Criação da instância
-        Cosmetico lojaCosmetico = new Cosmetico("Loja Cosmético", 10, 2100, e1, d1, 20);
+        Cosmetico lojaCosmetico = new Cosmetico("Loja Cosmético", 10, 2100, e1, d1, 20, 10);
         System.out.println("\n[OK] Classe Cosmetico identificada");
 
         //public void setTaxaComercializacao(double taxaComercializacao)
